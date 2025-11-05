@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-slate-50 to-slate-100 text-gray-900;
+  }
+}
+
+@layer components {
+  .chapter-card {
+    @apply bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border-l-4;
+  }
+
+  .pillar-card {
+    @apply bg-gradient-to-br from-white to-slate-50 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-6;
+  }
+}
